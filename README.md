@@ -16,7 +16,7 @@ A SQL instance has been spinned up in the cloudsql and created a database for th
 ### 4. Created a zone in cloudDNS and added the NS in GoDaddy.
 For exposing the domain to the public , I have first created a zone in cloudDNS. Then Purchased a domain from godaddy and added the NS from cloudDNS. Created an A record to get pointed to the ingress LoadBalancer.
 
-### 5. Deployed a cert-manager using SSL for the domain
+### 5. Deployed a cert-manager for SSL in domain
 Here I have used letsencrypt for securing the domain with SSL. After creating the resources need for cert-manger i have created a cluster-issuer.
 
 ### 6. NFS creation and Mounting
