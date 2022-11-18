@@ -1,8 +1,6 @@
 # Worpress in kubernetes with NFS
 
-We can deploy wordpress domain in Kuberenets. Here, I have created a cluster in GKE and deployed the domain. The following resources and services has been use in the project.
-
-The workflow for the project :
+We can deploy wordpress domain in Kuberenets. Here, I have created a cluster in GKE and deployed the domain.  The workflow for the project is :
 ### 1. Created a cluster in GKE 
 
 I have created a standard GKE cluster for implementing the wordpress domain. It's a 3 node zonal cluster using ubuntu  with conatinerd image in the node. 
